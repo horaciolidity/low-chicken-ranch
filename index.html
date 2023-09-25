@@ -1,12 +1,12 @@
  <!DOCTYPE html>
 <html>
 <head>
- <link rel="icon" href="https://lowchickenranch.site/chicken3.png" type="image/png">
+ <link rel="icon" href="https://low-chicken-ranch.vercel.app/chicken3.png" type="image/png">
  <meta name="description" content="LOW CHICKEN RANCH web3 game Contract Smartchain ">
  <meta name="keywords" content="low, chicken, ranch">
  <meta name="author" content="Asa lvz">
  <meta http-equiv="content-language" content="en, es">
- <meta property="og:image" content="https://lowchickenranch.site/chicken5.png">
+ <meta property="og:image" content="https://low-chicken-ranch.vercel.app/chicken5.png">
 
 
 
@@ -16,15 +16,7 @@
   <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
   <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
- <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MZTWGZD26J"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-MZTWGZD26J');
-</script>
 
 
 
@@ -50,7 +42,7 @@
 <h2 style="font-family: 'Roboto', sans-serif; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); color: #fff; background-color: #333; padding: 1px; text-align: center;">Dashboard</h2>
     <div class="egg-image" style="background-color: #333; padding: 10px; text-align: center;">
     <div style="color: #fff; font-family: 'Arial', sans-serif; font-size: 24px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-        <img src="https://lowchickenranch.site/ghnjm.png" alt="Huevo grande" width="50" style="vertical-align: middle; margin-right: 10px;">
+        <img src="https://low-chicken-ranch.vercel.app/ghnjm.png" alt="Huevo grande" width="50" style="vertical-align: middle; margin-right: 10px;">
     </div>
     <div style="color: #fff; font-family: 'Arial', sans-serif; font-size: 36px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);" id="eggCount">0</div>
     <div style="color: #fff; font-family: 'Arial', sans-serif; font-size: 18px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);" id="eggType"></div>
@@ -78,7 +70,7 @@
  <div id="banner-dialog">
     <div class="banner-content" style="background: linear-gradient(45deg, purple, orange); color: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); max-width: 400px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; align-items: center;">
         <div style="border-radius: 50%; overflow: hidden; width: 150px; height: 150px; margin-bottom: 20px;">
-            <img src="https://lowchickenranch.site/chicken3.png" alt="Imagen del banner" style="max-width: 100%; height: auto; border-radius: 50%;">
+            <img src="https://low-chicken-ranch.vercel.app/chicken3.png" alt="Imagen del banner" style="max-width: 100%; height: auto; border-radius: 50%;">
         </div>
 <p style="font-size: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Get started with <span style="color: #FFA500;">12 gallinas</span> and level up for up to <span style="color: #FFA500;">50% APY</span>!</p>
 <p style="font-size: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">To get started:</p>
@@ -116,7 +108,7 @@
 <div class="chicken" data-id="2" data-price="0.05" style="margin: 10px; padding: 10px; border: 1px solid #ccc; width: 200px; text-align: center;">
         <div class="chicken-controls">
             <h2>1</h2>
- <img src="https://lowchickenranch.site/chicken1.png" alt="Gallina 2">  
+ <img src="https://low-chicken-ranch.vercel.app/chicken1.png" alt="Gallina 2">  
          <p style="background: linear-gradient(90deg, #FFA500, #000); color: white; padding: 5px; border-radius: 20px; font-size: 18px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);">Time to lay eggs: <span style="color: #FFA500;">15</span> days</p>
   <p style="background: linear-gradient(90deg, #FFA500, #000); color: white; padding: 5px; border-radius: 20px; font-size: 18px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);">Number of eggs: <span style="color: #FFA500;">15 to 26</span></p>
           
@@ -132,7 +124,7 @@
 <div class="chicken" data-id="3" data-price="0.07" style="margin: 10px; padding: 10px; border: 1px solid #ccc; width: 200px; text-align: center;">
         <div class="chicken-controls">
             <h2>2</h2>
- <img src="https://lowchickenranch.site/chicken2.png" alt="Gallina 3">   
+ <img src="https://low-chicken-ranch.vercel.app/chicken2.png" alt="Gallina 3">   
          <p style="background: linear-gradient(90deg, #FFA500, #000); color: white; padding: 5px; border-radius: 20px; font-size: 18px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);">Time to lay eggs: <span style="color: #FFA500;">15</span> days</p>
   <p style="background: linear-gradient(90deg, #FFA500, #000); color: white; padding: 5px; border-radius: 20px; font-size: 18px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);">Number of eggs: <span style="color: #FFA500;">10 to 29</span></p>
            
@@ -147,7 +139,7 @@
 <div class="chicken" data-id="4" data-price="0.08" style="margin: 10px; padding: 10px; border: 1px solid #ccc; width: 200px; text-align: center;">
         <div class="chicken-controls">
             <h2>3</h2>
- <img src="https://lowchickenranch.site/chicken3.png" alt="Gallina 4">    
+ <img src="https://low-chicken-ranch.vercel.app/chicken3.png" alt="Gallina 4">    
          <p style="background: linear-gradient(90deg, #FFA500, #000); color: white; padding: 5px; border-radius: 20px; font-size: 18px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);">Time to lay eggs: <span style="color: #FFA500;">15</span> days</p>
   <p style="background: linear-gradient(90deg, #FFA500, #000); color: white; padding: 5px; border-radius: 20px; font-size: 18px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);">Number of eggs: <span style="color: #FFA500;">15 to 32</span></p>
     <div id="rent-button-1" style="display: flex; justify-content: center; align-items: center; background: radial-gradient(circle, #000000, #FF0000); color: white; padding: 1px; cursor: pointer; font-family: 'Digital', sans-serif; border-radius: 40px;">
@@ -161,7 +153,7 @@
 <div class="chicken" data-id="5" data-price="0.1" style="margin: 10px; padding: 10px; border: 1px solid #ccc; width: 200px; text-align: center;">
         <div class="chicken-controls">
             <h2>4</h2>
- <img src="https://lowchickenranch.site/chicken4.png" alt="Gallina 5"> 
+ <img src="https://low-chicken-ranch.vercel.app/chicken4.png" alt="Gallina 5"> 
          <p style="background: linear-gradient(90deg, #FFA500, #000); color: white; padding: 5px; border-radius: 20px; font-size: 18px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);">Time to lay eggs: <span style="color: #FFA500;">15</span> days</p>
   <p style="background: linear-gradient(90deg, #FFA500, #000); color: white; padding: 5px; border-radius: 20px; font-size: 18px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);">Number of eggs: <span style="color: #FFA500;">22 to 31</span></p>
       <div id="rent-button-1" style="display: flex; justify-content: center; align-items: center; background: radial-gradient(circle, #000000, #FF0000); color: white; padding: 1px; cursor: pointer; font-family: 'Digital', sans-serif; border-radius: 40px;">
@@ -175,7 +167,7 @@
 <div class="chicken" data-id="6" data-price="0.2" style="margin: 10px; padding: 10px; border: 1px solid #ccc; width: 200px; text-align: center;">
         <div class="chicken-controls">
             <h2>5</h2>
- <img src="https://lowchickenranch.site/chicken5.png" alt="Gallina 6">        
+ <img src="https://low-chicken-ranch.vercel.app/chicken5.png" alt="Gallina 6">        
          <p style="background: linear-gradient(90deg, #FFA500, #000); color: white; padding: 5px; border-radius: 20px; font-size: 18px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);">Time to lay eggs: <span style="color: #FFA500;">15</span> days</p>
   <p style="background: linear-gradient(90deg, #FFA500, #000); color: white; padding: 5px; border-radius: 20px; font-size: 18px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);">Number of eggs: <span style="color: #FFA500;">24 to 38</span></p>
  
